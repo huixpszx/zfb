@@ -1,0 +1,19 @@
+{
+    "name": "timespay/zfb",
+    "description": "zfb",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Timespay\\Zfb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "huixpszx",
+            "email": "40597709+huixpszx@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    }
+}
