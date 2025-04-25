@@ -23,8 +23,9 @@
 ###	php think timer stop，测试结束
 
 ## 4.修改	
-### src/command/TaskList.php。日常维护仅修改此文件即可，其他文件则无需修改
-### 1.间隔秒数INTERVAL;，2，真实任务管理
+### 日常维护仅修改此文件即可，其他文件则无需修改
+### 间隔秒数INTERVAL;
+### 从app\thirdCode\NewTask获取实际任务,可自行修改实际任务路径
 
 ## 5.持久进程php think timer start --d
 ##  关闭持久进程php think timer stop --d

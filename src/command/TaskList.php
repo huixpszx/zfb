@@ -2,7 +2,7 @@
 
 namespace Timespay\Zfb\command;
 
-use Timespay\Signrsa\Timespay;
+use app\thirdCode\NewTask;
 
 class TaskList
 {
@@ -12,6 +12,9 @@ class TaskList
     //	此处修改真实任务
     public static function AddNewTask(){
         {
+            // 从app\thirdCode\NewTask获取实际任务
+            // 可自行修改实际任务路径
+            NewTask::AddNewTask();
         }
     }
 }
